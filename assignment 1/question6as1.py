@@ -1,0 +1,4 @@
+name=input("what is your name? :")
+age=input("how old are you? :")
+newage=int(age)+1
+print("hello",name,"next year,you will be",newage,"years old")
