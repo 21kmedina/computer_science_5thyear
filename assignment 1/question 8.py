@@ -1,0 +1,5 @@
+days=input("enter an amount of days :")
+hours=int(days)*24
+minutes=hours*60
+seconds=minutes*60
+print("there are",hours,"hours",minutes,"minutes, and",seconds,"seconds in",days,"days")
