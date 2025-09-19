@@ -1,0 +1,9 @@
+rect1=input('enter value for length :')
+rectlen=int(rect1)
+rect2=input('enter value for width  :')
+rectwid=int(rect2)
+area=float(rectlen*rectwid)
+print('the area of the rectangle, is ',area,'cm squared')
+
+perimeter=(rectlen*2+rectwid*2)
+print('this is the perimeter of the rectangle',perimeter,'cm')
