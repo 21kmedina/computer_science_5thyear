@@ -1,0 +1,12 @@
+'''
+author: Karla Patino Medina
+Date:19th of september 2025
+description:flowcharts excercise, calculates if its a leap year or not
+
+'''
+year=input('how many days are in this year?:')
+year=int(year)
+if(year==365):
+    print('this is not a leap ytear! ')
+else:
+    print('This is a leap year')
