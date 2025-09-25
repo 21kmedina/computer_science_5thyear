@@ -1,0 +1,7 @@
+rain= input("is it rainning? :")
+if rain==("yes")or("Yes"):
+    windy=input("is it windy?")
+    if windy==("yes")or("Yes"):
+        print("its too windy for an umbrella.")
+        elif windy==("no")or("No"):
+            print("enjoy your day")
