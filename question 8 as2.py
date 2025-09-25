@@ -1,0 +1,10 @@
+number=input("enter 1, 2 or 3:")
+number=int(number)
+if number==1:
+    print("thank you")
+elif number==2:
+     print("well done")
+elif number==3:
+    print("correct")
+else:
+    print("error message")
