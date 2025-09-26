@@ -1,0 +1,9 @@
+Q3 the code runs but doesn't do as requested
+
+Q4 is missing
+
+Q5 doesn't run. Can you check it and see if you can fix it.
+
+Q6 doesn't work at all. You are using walrus operators which don't work in this situation.
+
+Q9 is missing
