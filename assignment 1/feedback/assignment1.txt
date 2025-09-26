@@ -1,0 +1,5 @@
+For question 9 you should multiply instead of divide.
+
+Could you please add the comments to the top of each code file.
+
+Could you please upload questions 6 - 11 on page 174 in the book.
