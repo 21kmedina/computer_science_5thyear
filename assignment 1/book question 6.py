@@ -1,0 +1,7 @@
+#autor:karla patino
+#date:/1stsep/2025
+#description: question 6 of book , area of a circle
+radius=input('enter the radius of a circle')
+radius=int(radius)
+area=float(3.14* radius* radius)
+print('area of circle is',area)
