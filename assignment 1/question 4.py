@@ -1,3 +1,6 @@
+#autor:karla patino
+#date:1st/sep/2025
+#description: operations with numbers
 print("enter three numbers")
 firstnum=input("enter first number :")
 secondnum=input("enter second number:")
