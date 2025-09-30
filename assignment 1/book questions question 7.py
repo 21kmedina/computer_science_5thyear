@@ -1,0 +1,17 @@
+#autor:karla patino
+#date:/1stsep/2025
+#description: question 11, subject averages
+sub1= input('enter first subject :')
+sub2= input('enter second subject :')
+sub3= input('enter third subject :')
+sub4= input('enter forth subject :')
+sub5= input('enter fifth subject :')
+sub1=int(sub1)
+sub2=int(sub2)
+sub3=int(sub3)
+sub4=int(sub4)
+sub5=int(sub5)
+multiply=int(sub1*sub2*sub3*sub4*sub5)
+multiply=int(multiply)
+avg=int(multiply/5)
+print(avg)
