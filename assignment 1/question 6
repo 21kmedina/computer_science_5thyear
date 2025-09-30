@@ -1,3 +1,6 @@
+#autor:karla patino
+#date:1st/sep/2025
+#description: age next year
 name=input("what is your name? :")
 age=input("how old are you? :")
 newage=int(age)+1
