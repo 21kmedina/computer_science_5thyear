@@ -1,3 +1,7 @@
+#autor:karla patino
+#date:2nd/sep/2025
+#description: program to ask user name and age and calculate age next year
+
 age=input("what is your age? :")
 name=input("what is your name?:")
 secondage=int(age)
