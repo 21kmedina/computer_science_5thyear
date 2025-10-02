@@ -1,0 +1,12 @@
+#author:Karla Patino
+#date:/2nd october/2025
+#description: question 1, while loops excersices
+n= -1
+total=0
+count=0
+while n!='':
+    n=input('enter a number :')
+    if n.isdigit():#true if interger value
+        total+=int(n)
+        count+=1
+print('avereage is: ',total/count)
