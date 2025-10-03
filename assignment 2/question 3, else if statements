@@ -1,3 +1,6 @@
+#author= Karla Patino
+#assignmnet 2. question 3, asking user fro specific number.
+
 num1=input("enter a number between 10 and or 20 :")
 num=int(num1)
 if (num>0)and(num<=20):
