@@ -1,18 +1,17 @@
 '''
 Karla Patino Medina
 14th October 2025
-assignment 7, question 4
-convert decimal to binary
+assignment 7, question 3
+convert binary to decimal
 
 '''
 
 
-y=input('enter a number to turn it to decimal:')
-y=int(y)
-while y!=0:
-    remainder=y%2
-    y=y//2
+
+
+binary=input('enter a number to turn it to decimal:')
+binary=int(binary)
+while binary!=0:
+    remainder=binary*2
+    binary=binary//2
     print(remainder)
-
-    
-
