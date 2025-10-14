@@ -1,7 +1,7 @@
 '''
 Karla Patino Medina
 14th October 2025
-assignment 7, question 3
+assignment 7, question 4
 convert binary to decimal
 
 '''
@@ -13,4 +13,5 @@ while y!=0:
     remainder=y%2
     y=y//2
     print(remainder)
+
     
