@@ -1,12 +1,12 @@
 #author:Karla Patino
 #date:/2nd october/2025
 #description: question 1, while loops excersices
-num= 2
-total=0
-count=0
-while num !='':
-    num=input('enter a number :')
-    if num.isdigit():  
-       total+=int(num)
-       count+=1
-print('avereage is: ',total/count)
+num=0
+
+while num!='':
+    num1=int(input('Enter a WHOLE number :'))
+    num2=int(input('Enter another WHOLE number :'))
+    num3=int(input('Enter the last WHOLE number:'))
+    add=int(num1+num2+num3)
+    print('the average is',add/3,)
+
