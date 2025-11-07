@@ -13,5 +13,6 @@ amount=int(brackets1+brackets2)
 if amount%2==0:
     print('Theres an even amount of brackerts')
 else:
-    print('not equal too')
+    print('Thres not an even amount of brackets')
+
 
