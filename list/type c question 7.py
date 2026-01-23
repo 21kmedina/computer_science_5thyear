@@ -15,4 +15,14 @@ for i in range(0,51):
     x=i**2
     lst2.append(x)
 print(lst2)
+
+#part c,7
+increase=1
+lst3=[]
+lst1=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',]
+for i in lst1:
+    i=i*increase
+    lst3.append(i)
+    increase+=1
+print(lst3)
     
