@@ -2,11 +2,18 @@
 #1-5-2026,  Functions Q4
 
 #old macdonald
-def Name(a):
-    if len(a)>4:
-        pos_1=a[0]
-        pos_2=a[3]
-        pos_1=pos_1.upper
-        pos_2=pos_2.upper
+def change_name(name):
+    if len(name)>4:
+        pos_1=name[0]
+        pos_2=name[3]
+        upper_1=pos_1.upper()
+        name=name.replace(pos_1,upper_1)
+        upper_2=pos_2.upper()
+        name=name.replace(pos_2,upper_2)
+        new_name=name
+    return new_name
         
-a=input('Enter a name:')
+
+name=input('Enter a name:')
+
+x=change_name(name)
