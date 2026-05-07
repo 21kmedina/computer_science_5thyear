@@ -1,0 +1,25 @@
+This is a really good attempt with a few mistakes.
+
+Line 5: space=str(" ")
+- you don't need str() becuase if it is in quotes it is a string datatype
+space = " " would work fine
+
+line 7:vowel=("a","e,i,o,u")
+- round brackets make a tuple, square brackets make a list [].
+- nothing wrong with a tuple but you need to quote each letter separately like you would a list
+vowel = ("a","e","i","o","u") otherwise you have two strings "a" and "e,i,o,u"
+
+line 12:     if i==vowel:
+- this works for comparing two letters "a" == "b" for example. You want to check if i is
+one of the letters in the tuple vowel. So, you need to use the membership operator (in)
+
+if i in vowel
+-then it will work given the changes mentioned above.
+
+You could also do vowel = "aeiou" and check if i is a letter in the string
+
+if i in vowel
+
+You should make sure i is lower case for line 12, as it won't pick up capital vowels otherwise
+
+if i.lower() in vowel

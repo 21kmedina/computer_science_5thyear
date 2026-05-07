@@ -10,3 +10,4 @@ def reverse_order(sentence):
         print(word1)
 
 sentence=input('Enter a sentence :')
+print(sentence)

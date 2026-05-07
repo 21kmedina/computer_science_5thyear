@@ -1,0 +1,50 @@
+Your code is very good.
+
+line 22: weekly_total=int(mon+tue+wed+thurs+fri+sat+sun)
+- You don't need to int() the days of the week. You made them int() on input so you can
+just add them
+- There is a list function sum() which sums the values in a list.
+weekly_total = sum(weekly_steps)
+- will do the same but will save you typing and is better
+becuase if you change the number of items in the list you don't need to change the summation
+on right hand side of line 22
+
+line 25: avg_daily_steps=int(mon+tue+wed+thurs+fri+sat+sun)/7
+- same as for line 22, but instead of dividing by 7, you can use the len() function to get
+the number of items in the list it has the same benefit as sum() in that it generalizes code
+
+avg_daily_steps=sum(weekly_steps)/len(weekly_steps)
+
+line 26: print('The avg number of steps is:',avg_daily_steps)
+
+-to round a number use the round() function. It takes two arguments - the number to round
+and the number of decimal places to round to.
+
+print('The avg number of steps is:',round(avg_daily_steps,2))#round to 2 decimal places
+print('The avg number of steps is:',round(avg_daily_steps,3))#round to 3 decimal places
+
+Lines 29 -33: Find the max and min values of the list
+There are two functions max() and min() which will return the max and min values of a list
+maximum = max(weekly_steps)
+minimum = min(weekly_steps)
+
+To find them from a list if you don't have the max() and min() functions.
+
+First set a maximum and a minumum variable both to the first element in the list
+
+maximum = weekly_steps[0]
+minimum = weekly_steps[0]
+
+then run a loop over the list
+
+for i in weekly_steps:
+    if i>maximum:
+        maximum = i
+    if i<minimum:
+        minimum = i
+
+You had the correct idea but you can't use > with an int and a list as they are
+different datatypes
+
+
+

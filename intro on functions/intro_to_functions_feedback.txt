@@ -1,0 +1,16 @@
+Q1 is good but can you take input from the user instead of hard-coding the function call
+It makes it easier to check
+
+Q2 is very good
+Q3 is very good
+
+Q4 doesn't print output and it doesn't work properly, also, if I put in a single letter it
+crashes
+
+Q5 isn't working properly
+
+
+
+
+
+

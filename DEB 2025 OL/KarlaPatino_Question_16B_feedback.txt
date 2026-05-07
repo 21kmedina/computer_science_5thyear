@@ -1,0 +1,8 @@
+Your code is good but lines 9 and 10 you should use
+
+min_val=min(temperatures)
+max_val=max(temperatures)
+
+You should round the numbers on your output.
+
+min(),max() and round() are all on the reference guide.

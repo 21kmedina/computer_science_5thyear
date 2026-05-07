@@ -1,0 +1,5 @@
+Your code is very good, however, the output at the end is a list.
+
+You will lose marks if you just print a list in the LC exam.
+
+You should loop through the list and write the output on separate lines.

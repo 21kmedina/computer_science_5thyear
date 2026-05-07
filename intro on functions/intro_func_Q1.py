@@ -16,5 +16,5 @@ def even_or_odd(a,b):
         elif b>a:
             result=b
     return (result)
-x= even_or_odd(3,7)
+x= even_or_odd(9,7)
 print(x)
