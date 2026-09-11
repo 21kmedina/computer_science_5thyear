@@ -2,14 +2,15 @@
 
 lst=[3,5,2,7,1]
 size=len(lst)
-marker=1
+min_val=0
 
 for i in range(0,size-1):
-    if lst[i] >lst[marker]:
-        lst[i],lst[marker]=lst[marker],lst[i]
-        marker+=1
-    elif lst[i] < lst[marker]:
-        marker+=1
+    min_val=i
+    for j in range(i+1,size):
+        if lst[j]<lst[min_val]:
+            min_val= j
+            lst[i],lst[min_val]=lst[min_val],lst[i]
+            
                      
 print(lst)
     
