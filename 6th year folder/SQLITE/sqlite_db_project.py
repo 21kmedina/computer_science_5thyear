@@ -1,15 +1,15 @@
 import sqlite3
 
-db_connection = sqlite3.connect("iris_cv_db")
-
+db_connection = sqlite3.connect("iris_cv.db")
+# CURSOR OBJECT
 cursor = db_connection.cursor()
 
 create_table="""
-create table if not exists nombre_tabla (
-Sepal_length FLOAT NOT NULL,
-Sepal_width  FLOAT NOT NULL,
-Petal_length FLOAT NOT NULL,
-Petal_width  FLOAT NOT NULL,
+create table if not exists flower_info(
+sepal_length FLOAT NOT NULL,
+sepal_width  FLOAT NOT NULL,
+petal_length FLOAT NOT NULL,
+petal_width  FLOAT NOT NULL,
 Class  INTEGER NOT NULL
 )
 
