@@ -1,11 +1,11 @@
-function display_hello_btn(){
-alert('Hello :)' );
-}
-
 function update_user_name_btn(){
 //get the value from the user input
 let user_name_input = document.getElementById('user_name').value;
 //update the span tag with the user input
+document.getElementById('user_name_place_holder').innerHTML =
+user_name_input;
+}
+
 
 function calculate_mean(){
 //Get the user data  
@@ -26,12 +26,28 @@ num_items = data_in_list.length;
 let average = total/num_items
 return average
 }
-js
+
 function calculate_mean_btn(){
 document.getElementById('user_dataset_1_placeholder').innerHTML = 
 calculate_mean();
 }
-
 document.getElementById('user_name_place_holder').innerHTML = 
 user_name_input;
+
+
+function calculate_median(){
+    let data_from_user = document.getElementById('user_dataset_1').value;
+    let data_in_list = data_from_user.split(',')
+    data_in_list.sort();
+    if (data_in_list.length % 2 != 0){
+        index=math.floor(data_in_list/2)
+        alert(data_in_list[index])
+    }
+    return index
 }
+function calculate_median_btn(){
+document.getElementById('user_dataset_1_placeholder_median').innerHTML = 
+calculate_median();
+}
+document.getElementById('user_name_place_holder_median').innerHTML = 
+user_dataset_1;
