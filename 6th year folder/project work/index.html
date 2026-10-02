@@ -8,18 +8,26 @@
         <p>User name entered: <span id='user_name_place_holder'> ----</span> 
         </p>
         <br>
-        <button onclick= 'display_hello_btn()'>Click me</button>
-        <br>
-        <textarea id=\"user_dataset_1\" name=\"user_dataset_1\" rows=\"5\" 
-        cols=\"32\" placeholder =\"Enter your data here...\">
-        </textarea>
+        <button onclick= 'update_user_name_btn()'>Display name</button>
+        </br>
 
-        <p>Average of numbers in textarea: <span id='user_dataset_1_placeholder'> ----</span> </p>
         <br>
+        <textarea id="user_dataset_1" name="user_dataset_1" rows="3" 
+        cols="32" placeholder ="Enter your data here...">
+        </textarea>
+        </br>
+
+        </body>
+
+        <p>Average of numbers in text area: <span id='user_dataset_1_placeholder'> ----</span> </p>
+        <br>
+        <p>median in text area: <span id='user_dataset_1_placeholder_median'> ----</span> </p>
 
         <button onclick= 'calculate_mean_btn()'>Calculate average</button>
+        <button onclick= 'calculate_median_btn()'>Calculate median</button>
 
         <script src ="something.js" type ="text/javascript"></script>
+        <script src ="functions.js" type ="text/javascript"></script>
     </body>
     
 </html>
