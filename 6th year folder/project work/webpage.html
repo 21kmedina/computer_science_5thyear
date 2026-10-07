@@ -13,7 +13,7 @@
 
         <br>
         <textarea id="user_dataset_1" name="user_dataset_1" rows="3" 
-        cols="32" placeholder ="Enter your data here...">
+        cols="0" placeholder ="Enter your data here...">
         </textarea>
         </br>
 
@@ -21,13 +21,16 @@
 
         <p>Average of numbers in text area: <span id='user_dataset_1_placeholder'> ----</span> </p>
         <br>
-        <p>median in text area: <span id='user_dataset_1_placeholder_median'> ----</span> </p>
+        <p>Median in text area: <span id='user_dataset_1_placeholder_median'> ----</span> </p>
+        <p>Range in text area: <span id='user_dataset_1_placeholder_range'>----</span></p>
+        <p>Mode in text area: <span id='user_dataset_1_placeholder_mode'>----</span></p>
 
         <button onclick= 'calculate_mean_btn()'>Calculate average</button>
         <button onclick= 'calculate_median_btn()'>Calculate median</button>
+        <button onclick='calculate_range_btn()'>Calculate range</button>
+        <button onclick='calculate_mode_btn()'>Calculate mode</button>
 
-        <script src ="something.js" type ="text/javascript"></script>
-        <script src ="functions.js" type ="text/javascript"></script>
+        <script src ="functions_for_webpage.js" type ="text/javascript"></script>
     </body>
     
 </html>
