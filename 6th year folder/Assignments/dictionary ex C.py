@@ -28,7 +28,25 @@ def calculate_readability_score (text):
     add1=div1+mult1
     tot_formula=0.4 * add1
     
+    syllables = str( )
+    syllables = ['a','e','i','o','u','A','E','I','O','U']
+    count = 0
+    complex_words=0
+    for x in words:
+        for z in x:
+            if z in syllables:
+                count+=1
+        if x[-1]== 'e':
+            count -=1
+        if count >=3:
+            complex_words+=1
+    
+    #print ('Count of sylibals:',count)
+    
+    
+    
     print('Short words:',short_word_count)
+    print('Complex words :',complex_words)
     score = round (tot_formula,2) # Round the score to 2 d.p.
     return score
 
@@ -52,3 +70,4 @@ elif score2<score1:
     print("The second text is easier to read.")
     
     
+
